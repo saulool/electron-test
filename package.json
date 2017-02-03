@@ -4,6 +4,7 @@
   "description": "An Electron based POC",
   "main": "application-container.js",
   "scripts": {
+    "start": "webpack --config webpack.config.js && electron .",
     "webpack:build": "webpack --config webpack.config.js",
     "electron:start": "electron ."
   },
